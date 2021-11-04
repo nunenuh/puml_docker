@@ -2,7 +2,7 @@
 
 set -e
 
-use_tag="nunenuh/uvicorn-gunicorn:$NAME"
+use_tag="nunenuh/puml:$NAME"
 use_dated_tag="${use_tag}-$(date -I)"
 
 bash scripts/build.sh
